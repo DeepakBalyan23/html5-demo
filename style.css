@@ -1,17 +1,32 @@
 body{
 	background-color: #ddd;
 	font-family: sans-serif;
+	color: green;
 }
 div {
 	width: 500px;
 	margin : auto;
 }
+#main_div{
+	border: solid;
+	padding: 20px;
+}
 blockquote{
 	margin: auto;
 }
 .quote_text{
-	border: solid;
-	border-color: white;
-	padding: 10px;
 	text-align: center;
+}
+
+
+.inherit a {
+  color: inherit;
+}
+
+.initial a {
+  color: initial;
+}
+
+.unset a {
+  color: unset;
 }
